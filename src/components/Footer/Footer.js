@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer(){
-
+// need to come up with a way to set this at the bottom...
 return (
 
 <div>
