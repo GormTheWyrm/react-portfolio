@@ -14,9 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          {/* <Navbar> */}
-          {/* replace this with my header... component... which will be a navbar...probably */}
-          {/* <wrapper> */}
+
           <Header />
           <Switch>
             <Route exact path="/" component={HomePage} />
@@ -26,8 +24,6 @@ function App() {
             {/* <Route component={TestComponent} /> */}
           </Switch>
           {/* need to figure out the way to set default */}
-          {/* </wrapper> */}
-          {/* </Navbar> */}
 
 
         </div>
