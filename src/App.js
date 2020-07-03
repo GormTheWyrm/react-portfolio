@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PortfolioPage from "./components/Pages/PortfolioPage/PortfolioPage";
 import HomePage from './components/Pages/HomePage/HomePage';
 import Header from './components/Header/Header';
+// import PageNotFound from '../public/PageNotFound';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
             <Route exact path="/home" component={HomePage} />
             {/* <Route exact path="/test" component={TestComponent} /> */}
             <Route exact path="/portfolio" component={PortfolioPage} />
-            {/* <Route component={TestComponent} /> */}
+            {/* <Route component={PageNotFound} /> */}
           </Switch>
           {/* need to figure out the way to set default */}
 
