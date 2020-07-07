@@ -8,13 +8,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PortfolioPage from "./components/Pages/PortfolioPage/PortfolioPage";
 import HomePage from './components/Pages/HomePage/HomePage';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 // import PageNotFound from '../public/PageNotFound';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <div>
+        <div className="wrapper">
 
           <Header />
           <Switch>
@@ -30,6 +31,7 @@ function App() {
         </div>
 
       </Router>
+      <Footer />
     </div>
   );
 }

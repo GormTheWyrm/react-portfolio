@@ -34,7 +34,7 @@ class HomePage extends Component {
                         <p>Note to self; this would be a good place for a resume</p>
                     </div>
                 </div>
-                <Footer/>
+               
             </div>
         );
     };

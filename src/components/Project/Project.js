@@ -1,5 +1,8 @@
 import React from "react";
 import "./Project.css"
+
+import TEST from "../../images/AboutTime.PNG"
+
 function Project(props) {
 
 
@@ -15,6 +18,7 @@ function Project(props) {
             <img src={props.projectImage} alt="Screenshot"
             // will add size when imgs are working
             />
+            {/* consider putting in json */}
             <p>{props.projectDescr}</p>
 
         </div>
