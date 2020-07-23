@@ -4,7 +4,6 @@ body{
 }
 .App {
   text-align: center;
- 
 }
 
 .App-logo {
@@ -40,8 +39,4 @@ body{
   to {
     transform: rotate(360deg);
   }
-}
-.wrapper{
-
-  min-height: 85vh;
 }
