@@ -6,6 +6,8 @@ import PasswordGen from "../../../images/PasswordGen.PNG";
 import Rock from "../../../images/Rock.PNG";
 import RVAfish from "../../../images/RVAfish.PNG";
 import Weather from "../../../images/Weather.PNG";
+import "./PortfolioPage.css"
+import Footer from "../../Footer/Footer";
 
 class PortfolioPage extends Component {
 
@@ -14,7 +16,7 @@ class PortfolioPage extends Component {
             <div>
                 {/* add some bootstrap to make these fit in nice columns... */}
                 {/* maybe I can import the images and send them to the child component? */}
-                <div className="container">
+                <div className="container background">
                     <div className="row">
                         <h1>Portfolio!</h1>
                     </div>
@@ -56,6 +58,9 @@ class PortfolioPage extends Component {
                             projectUrl={"https://gormthewyrm.github.io/RockPaperScissorsActivity/"}
                             projectDescr={"A simple Rock, Paper Scissors game."}
                             projectImage={Rock}
+
+                            // Replace this with FixMyShip
+
                         />
                         <Project
                             projectName={"Password Generator"}
@@ -66,6 +71,7 @@ class PortfolioPage extends Component {
                         />
                     </div>
                 </div>
+                    <Footer />
             </div>
         );
     };

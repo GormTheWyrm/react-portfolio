@@ -7,7 +7,7 @@ return (
 <div>
 
 <span>This Application was created using React</span>
-<p>The source material can be seen at this repo https://github.com/GormTheWyrm/react-portfolio</p>
+<p>The source material can be seen at this repo <a href="https://github.com/GormTheWyrm/react-portfolio" target="__blank">https://github.com/GormTheWyrm/react-portfolio</a></p>
 
 </div>
 

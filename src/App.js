@@ -19,9 +19,10 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/home" component={HomePage} />
+            <Route exact path="/react-portfolio/home" component={HomePage} />
             {/* <Route exact path="/test" component={TestComponent} /> */}
             <Route exact path="/portfolio" component={PortfolioPage} />
-            {/* <Route component={TestComponent} /> */}
+            <Route exact path="/react-portfolio/porfolio" component={PortfolioPage} />
           </Switch>
           {/* need to figure out the way to set default */}
 
