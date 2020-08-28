@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ced29b66.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.95168534.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.95168534.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.9e29536d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.311bf089.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.311bf089.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.b4ecae80.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b4ecae80.js.map",
-    "static/js/2.85205b03.chunk.js": "/react-portfolio/static/js/2.85205b03.chunk.js",
-    "static/js/2.85205b03.chunk.js.map": "/react-portfolio/static/js/2.85205b03.chunk.js.map",
+    "static/js/2.70ebf9e3.chunk.js": "/react-portfolio/static/js/2.70ebf9e3.chunk.js",
+    "static/js/2.70ebf9e3.chunk.js.map": "/react-portfolio/static/js/2.70ebf9e3.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.0d0b172336b5704d67f2e44ce510615b.js": "/react-portfolio/precache-manifest.0d0b172336b5704d67f2e44ce510615b.js",
+    "precache-manifest.30455f3f3b9f0148ee12d505f9152289.js": "/react-portfolio/precache-manifest.30455f3f3b9f0148ee12d505f9152289.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.ced29b66.chunk.css.map": "/react-portfolio/static/css/main.ced29b66.chunk.css.map",
-    "static/js/2.85205b03.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.85205b03.chunk.js.LICENSE.txt",
+    "static/css/main.9e29536d.chunk.css.map": "/react-portfolio/static/css/main.9e29536d.chunk.css.map",
+    "static/js/2.70ebf9e3.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.70ebf9e3.chunk.js.LICENSE.txt",
     "static/media/AboutTime.PNG": "/react-portfolio/static/media/AboutTime.8344c609.PNG",
     "static/media/Dayplanner.PNG": "/react-portfolio/static/media/Dayplanner.170ef7b5.PNG",
     "static/media/PasswordGen.PNG": "/react-portfolio/static/media/PasswordGen.9dbfb526.PNG",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b4ecae80.js",
-    "static/js/2.85205b03.chunk.js",
-    "static/css/main.ced29b66.chunk.css",
-    "static/js/main.95168534.chunk.js"
+    "static/js/2.70ebf9e3.chunk.js",
+    "static/css/main.9e29536d.chunk.css",
+    "static/js/main.311bf089.chunk.js"
   ]
 }
