@@ -14,24 +14,21 @@ function App() {
     <div className="App">
       <Router>
         <div>
-
+    {/* prexif all links with   <Link to={process.env.PUBLIC_URL + '/'}>    ? each-router or react-router? */}
           <Header />
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/home" component={HomePage} />
-            <Route exact path="/react-portfolio/home" component={HomePage} />
-            {/* <Route exact path="/test" component={TestComponent} /> */}
-            <Route exact path="/portfolio" component={PortfolioPage} />
-            <Route exact path="/react-portfolio/porfolio" component={PortfolioPage} />
+          {/* <Route path={process.env.PUBLIC_URL + '/'}> */}
+            <Route path={process.env.PUBLIC_URL + "/"} component={PortfolioPage} />
+            <Route path={process.env.PUBLIC_URL + "/aboutme"} component={HomePage} />
+            <Route path={process.env.PUBLIC_URL + "/portfolio"} component={PortfolioPage} />
+            <Route path={process.env.PUBLIC_URL + "/home"} component={PortfolioPage} />
           </Switch>
-          {/* need to figure out the way to set default */}
-
-
         </div>
-
       </Router>
     </div>
   );
 }
 
 export default App;
+
+// to redeploy go into node modules/cach and delete the gh-pages folder. (Needs verification)

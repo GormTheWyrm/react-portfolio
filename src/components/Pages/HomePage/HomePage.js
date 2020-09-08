@@ -15,7 +15,6 @@ class HomePage extends Component {
                     <p>
                         My Name is Geordin Soucie and this is my GitHub React Pages <em>About Me</em> section.
                         You can see my portfolio <Link to="/portfolio">Here</Link>.
-                        Testing Link <Link to="/react-portfolio/portfolio">Here</Link>.
                     </p>
                 </div>
                 <div className="row">
