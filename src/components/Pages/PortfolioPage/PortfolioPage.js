@@ -8,6 +8,7 @@ import RVAfish from "../../../images/RVAfish.PNG";
 import Weather from "../../../images/Weather.PNG";
 import "./PortfolioPage.css"
 import Footer from "../../Footer/Footer";
+import FixMyShip from "../../../images/FixMyShip.PNG"
 
 class PortfolioPage extends Component {
 
@@ -23,6 +24,16 @@ class PortfolioPage extends Component {
                     <div className="row">
 
 
+                        <Project
+                            projectName={"FixMyShip"}
+                            projectRepo={"https://github.com/GormTheWyrm/fixmyship2.0"}
+                            projectUrl={"http://fixmyship20.herokuapp.com/"}
+                            projectDescr={"Full stack MERN forum app that allows users to post relationship questions"}
+                            projectImage={FixMyShip}
+
+                        // Replace this with FixMyShip
+
+                        />
                         <Project
                             projectName={"Fish RVA"}
                             projectRepo={"https://github.com/GormTheWyrm/BootcampProject2"}
@@ -52,16 +63,7 @@ class PortfolioPage extends Component {
                             projectDescr={"This simple app allows users to see the forecast for specific cities. Users can search and add cities to their dashboard. Saves data in LocalStorage."}
                             projectImage={Weather}
                         />
-                        <Project
-                            projectName={"Rock, Paper, Scissors"}
-                            projectRepo={"https://github.com/GormTheWyrm/RockPaperScissorsActivity"}
-                            projectUrl={"https://gormthewyrm.github.io/RockPaperScissorsActivity/"}
-                            projectDescr={"A simple Rock, Paper Scissors game."}
-                            projectImage={Rock}
 
-                            // Replace this with FixMyShip
-
-                        />
                         <Project
                             projectName={"Password Generator"}
                             projectRepo={"https://github.com/GormTheWyrm/PasswordHomework"}
@@ -70,8 +72,12 @@ class PortfolioPage extends Component {
                             projectImage={PasswordGen}
                         />
                     </div>
-                </div>
+                
+                <div className="row">
                     <Footer />
+                    </div>
+                </div>
+                
             </div>
         );
     };

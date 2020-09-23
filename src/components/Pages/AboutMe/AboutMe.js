@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../../Footer/Footer"
-import "./HomePage.css"
-class HomePage extends Component {
+import "./AboutMe.css"
+class AboutMe extends Component {
 
 
     // need to realign text...
@@ -14,7 +14,7 @@ class HomePage extends Component {
                     <h3>Welcome!</h3>
                     <p>
                         My Name is Geordin Soucie and this is my GitHub React Pages <em>About Me</em> section.
-                        You can see my portfolio <Link to="/portfolio">Here</Link>.
+                        You can see my portfolio <Link to={process.env.PUBLIC_URL + "/portfolio"}>Here</Link>.
                     </p>
                 </div>
                 <div className="row">
@@ -53,4 +53,4 @@ class HomePage extends Component {
         );
     };
 }
-export default HomePage;
+export default AboutMe;

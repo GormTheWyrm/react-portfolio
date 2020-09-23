@@ -3,6 +3,8 @@ border: burlywood solid;
 /* width: 500px; */
 width: 300px;
 margin: 2vh;
+margin-left: auto;
+margin-right: auto;
 }
 img{
     width: 280px;
