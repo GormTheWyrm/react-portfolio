@@ -20,6 +20,7 @@ class PortfolioPage extends Component {
                 <div className="container background">
                     <div className="row">
                         <h1>Portfolio!</h1>
+
                     </div>
                     <div className="row">
 
@@ -30,8 +31,6 @@ class PortfolioPage extends Component {
                             projectUrl={"http://fixmyship20.herokuapp.com/"}
                             projectDescr={"Full stack MERN forum app that allows users to post relationship questions"}
                             projectImage={FixMyShip}
-
-                        // Replace this with FixMyShip
 
                         />
                         <Project

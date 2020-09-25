@@ -20,8 +20,7 @@ class AboutMe extends Component {
                 <div className="row">
                     <div className="col-8">
                         <h5>About Me</h5>
-                        <p>Recently graduated from the University of Richmond's Web Development Bootcamp I am currently seeking employment as a web developer.
-                        My hobbies run toward reading, writing, historical events and the occasional bout of swordplay.
+                        <p>Recently graduated from the University of Richmond's Web Development Bootcamp I am currently seeking employment as a web developer. I have experience with
 
 
                  </p>
