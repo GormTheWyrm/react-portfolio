@@ -24,21 +24,19 @@ class PortfolioPage extends Component {
                     </div>
                     <div className="row">
 
-
+                    <Project
+                            projectName={"Fish RVA"}
+                            projectRepo={"https://github.com/GormTheWyrm/BootcampProject2"}
+                            projectUrl={"https://moustache-jake.herokuapp.com/"}
+                            projectDescr={"A full stack forum site built with Node.js and hosted on Heroku."}
+                            projectImage={RVAfish}
+                        />
                         <Project
                             projectName={"FixMyShip"}
                             projectRepo={"https://github.com/GormTheWyrm/fixmyship2.0"}
                             projectUrl={"http://fixmyship20.herokuapp.com/"}
                             projectDescr={"Full stack MERN forum app that allows users to post relationship questions"}
                             projectImage={FixMyShip}
-
-                        />
-                        <Project
-                            projectName={"Fish RVA"}
-                            projectRepo={"https://github.com/GormTheWyrm/BootcampProject2"}
-                            projectUrl={"https://moustache-jake.herokuapp.com/"}
-                            projectDescr={"A full stack forum site built with Node.js and hosted on Heroku."}
-                            projectImage={RVAfish}
                         />
                         <Project
                             projectName={"About Time"}

@@ -20,7 +20,7 @@ function Header() {
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
                             <Link to={process.env.PUBLIC_URL + "/aboutme"}>
-                          
+
                                 <span className="nav-link">
                                     About Me </span>
                                 <span className="sr-only">(current)</span>
@@ -41,7 +41,9 @@ function Header() {
                         <li className="nav-item">
                             <a className="nav-link" href="https://github.com/GormTheWyrm" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </li>
-                        
+                        <li >
+                        <p className="nav-link">gsoucieWebDev@gmail.com</p>
+                        </li>
 
 
                     </ul>
