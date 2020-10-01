@@ -11,7 +11,7 @@ class AboutMe extends Component {
             <div className="about-me">
                 <div className="container background">
                     <div>
-                        <h3>About Me</h3>
+                        <h3>Welcome!</h3>
                         <p>
                             My Name is Geordin Soucie and this is my GitHub React Pages <em>About Me</em> section.
                         You can see my portfolio <Link to={process.env.PUBLIC_URL + "/portfolio"}>Here</Link>.
@@ -27,10 +27,33 @@ class AboutMe extends Component {
                         </div>
                         {/* picture here ?*/}
                         <div className="section2-left col-8">
-                            <h5> Geordin Soucie</h5>
-                            <p>
-                                Who
-                            </p>
+                            <h5>About Me</h5>
+                        <p>
+                        Geordin Soucie grew up in rural Massachusetts in a time when the internet was confined to more
+                        populated areas.
+                    </p>
+                    <p>
+                        The son of an IT network professional and interior design specialist, Geordin developed an
+                        interest in design at an early age.
+                    </p>
+                    <p>However, it was not until his junior year in college that he first discovered the joy of coding.
+                        An Intro to Computer Science class at Clarkson University taught Geordin the joy of C++.
+                    </p>
+                    <p>In 2019, after determining that the Park Service demanded too many weekend hours,
+                        Geordin signed up for a Web Development Bootcamp through the University of Richmond
+                        He graduated in August 2020 in the midst of the Covid-19 pandemic and began to seek more
+                        permanent employment.
+                    </p>
+
+                    <h5>Passion and Hobbies</h5>
+                    <p>Geordin is a student of history, a medieval enthusiast and a passionate learner. He loves
+                        historical societies, sword combat and medieval fantasy.</p>
+
+                    <p>
+                        Hobbies include reading, writing, game design, 3D Modeling and attending events such as those
+                        held by
+                        <a href="sca.org" style={{color: "aliceblue;"}}> the Society of Creative Anachronism</a>.
+                    </p>
                         </div>
                         <div className="col-4 right-div">
                             <h5>Web Development Skills:</h5>
