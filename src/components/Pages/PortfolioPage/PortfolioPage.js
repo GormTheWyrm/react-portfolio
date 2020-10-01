@@ -24,7 +24,7 @@ class PortfolioPage extends Component {
                     </div>
                     <div className="row">
 
-                    <Project
+                        <Project
                             projectName={"Fish RVA"}
                             projectRepo={"https://github.com/GormTheWyrm/BootcampProject2"}
                             projectUrl={"https://moustache-jake.herokuapp.com/"}
@@ -69,12 +69,12 @@ class PortfolioPage extends Component {
                             projectImage={PasswordGen}
                         />
                     </div>
-                
-                <div className="row">
-                    <Footer />
+
+                    <div className="row">
+                        <Footer />
                     </div>
                 </div>
-                
+
             </div>
         );
     };
