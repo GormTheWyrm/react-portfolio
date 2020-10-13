@@ -40,7 +40,7 @@ class AboutMe extends Component {
                         An Intro to Computer Science class at Clarkson University taught Geordin the joy of C++.
                     </p>
                     <p>In 2019, after determining that the Park Service demanded too many weekend hours,
-                        Geordin signed up for a Web Development Bootcamp through the University of Richmond
+                        Geordin signed up for a Web Development Bootcamp through the University of Richmond.
                         He graduated in August 2020 in the midst of the Covid-19 pandemic and began to seek more
                         permanent employment.
                     </p>

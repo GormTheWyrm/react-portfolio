@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./Header.css";
 function Header() {
 
 
@@ -9,6 +9,7 @@ function Header() {
             {/* <p>This will be a real header or navbar</p> */}
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container">
                 <a className="navbar-brand" >Geordin Soucie
                 {/* should I put my email here? */}
                 </a>
@@ -48,6 +49,7 @@ function Header() {
 
                     </ul>
 
+                </div>
                 </div>
             </nav>
 

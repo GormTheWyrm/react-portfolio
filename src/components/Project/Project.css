@@ -9,3 +9,7 @@ margin-right: auto;
 img{
     width: 280px;
 }
+.leftP{
+    text-align: left;
+    margin-left: 5px;
+}
