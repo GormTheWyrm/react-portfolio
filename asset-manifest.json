@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.337929a1.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c64e1944.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c64e1944.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.f6e20b76.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e9303ede.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e9303ede.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.b4ecae80.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b4ecae80.js.map",
     "static/js/2.52720228.chunk.js": "/react-portfolio/static/js/2.52720228.chunk.js",
     "static/js/2.52720228.chunk.js.map": "/react-portfolio/static/js/2.52720228.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.4e41bda8121675d7823708257f09f281.js": "/react-portfolio/precache-manifest.4e41bda8121675d7823708257f09f281.js",
+    "precache-manifest.35e2d74c95f0e413d0655820f7e7d354.js": "/react-portfolio/precache-manifest.35e2d74c95f0e413d0655820f7e7d354.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.337929a1.chunk.css.map": "/react-portfolio/static/css/main.337929a1.chunk.css.map",
+    "static/css/main.f6e20b76.chunk.css.map": "/react-portfolio/static/css/main.f6e20b76.chunk.css.map",
     "static/js/2.52720228.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.52720228.chunk.js.LICENSE.txt",
     "static/media/AboutTime.PNG": "/react-portfolio/static/media/AboutTime.8344c609.PNG",
     "static/media/Dayplanner.PNG": "/react-portfolio/static/media/Dayplanner.d78cc514.PNG",
     "static/media/FixMyShip.PNG": "/react-portfolio/static/media/FixMyShip.0fe040e0.PNG",
     "static/media/PasswordGen.PNG": "/react-portfolio/static/media/PasswordGen.9dbfb526.PNG",
+    "static/media/Quaker.PNG": "/react-portfolio/static/media/Quaker.916204b9.PNG",
     "static/media/RVAfish.PNG": "/react-portfolio/static/media/RVAfish.8cf697f4.PNG",
-    "static/media/Rock.PNG": "/react-portfolio/static/media/Rock.8cd36d50.PNG",
     "static/media/Weather.PNG": "/react-portfolio/static/media/Weather.1b0b37f6.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.b4ecae80.js",
     "static/js/2.52720228.chunk.js",
-    "static/css/main.337929a1.chunk.css",
-    "static/js/main.c64e1944.chunk.js"
+    "static/css/main.f6e20b76.chunk.css",
+    "static/js/main.e9303ede.chunk.js"
   ]
 }
